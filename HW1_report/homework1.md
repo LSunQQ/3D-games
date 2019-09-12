@@ -69,11 +69,13 @@ public class test : MonoBehaviour {
 ```
 
 实验结果如下：
-![](images\image2.png)
+<img src="images\image2.png" alt="image2" style="zoom:60%;" />
+
+
 
 可以看到，前面的Awake、OnEnable、Start和最后的OnDisable都只执行了一次而中间的4个执行了很多次
 
-- Awake：
+- Awake：在加载脚本实例时调用
 - Start：在第一次调用任何Update方法之前启用脚本时，将在框架上调用Start。
 - Update：如果启用了MonoBehaviour，那么Update在每一帧被调用。
 - FixedUpdate：这是为了物理计算而调用的
@@ -106,7 +108,7 @@ public class test : MonoBehaviour {
 
 - 用 UML 图描述三者的关系（请使用 UMLet 14.1.1 stand-alone版本出图）
 
-![](images\image3.png)
+<img src="images\image3.png" alt="image3" style="zoom:90%;" />
 
 
 
@@ -273,4 +275,4 @@ void OnGUI() {
 
 
 最后展示一下游戏：
-![](images\image4.png)
+<img src="images\image4.png" alt="image4" style="zoom:60%;" />

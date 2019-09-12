@@ -69,7 +69,7 @@ public class test : MonoBehaviour {
 ```
 
 实验结果如下：
-![image2](images\image2.png)
+![](images\image2.png)
 
 可以看到，前面的Awake、OnEnable、Start和最后的OnDisable都只执行了一次而中间的4个执行了很多次
 
@@ -269,3 +269,8 @@ void OnGUI() {
 - 根据当前游戏者显示他下的棋子
 - 利用turn变量来切换游戏者
 - Button是按钮，可以点击；Label是一个标签，可以显示一段文字。它们都可以根据需要调整位置
+
+
+
+最后展示一下游戏：
+![](images\image4.png)

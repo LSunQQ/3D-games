@@ -149,4 +149,4 @@ public class PhysisUFOFlyAction : SSAction {
 
 附上
 [项目代码](https://github.com/LSunQQ/3D-games/tree/homework6)
-演示视频
+[演示视频](https://v.youku.com/v_show/id_XNDM5Nzk1NDM3Mg==.html?spm=a2h3j.8428770.3416059.1)
